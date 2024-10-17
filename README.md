@@ -9,7 +9,6 @@ This project implements a Deep Q-Learning agent to solve the CartPole environmen
 - [Training](#training)
 - [Agent](#agent)
 - [Dependencies](#dependencies)
-- [License](#license)
 
 ## Installation
 
@@ -64,10 +63,4 @@ You can install them using pip:
 ```bash
 pip install gym numpy torch tensorflow matplotlib
 ```
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-Feel free to contribute to this project or raise issues if you encounter any problems.
+ project or raise issues if you encounter any problems.
