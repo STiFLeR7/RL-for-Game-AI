@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RL-for-Game-AI"
+version = "0.1.0"
+description = "-----"
+authors = [
+    { name="STiFLeR7", email="hillaniljppatel@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md" # Assuming you have a README file
+homepage = "https://github.com/STiFLeR7/RL-for-Game-AI" # Your project's website or repo
+requires-python = ">=3.8"
+
+[project.dependencies]
+numpy = ">=1.21"
+pandas = ">=1.3"
+scikit-learn = ">=0.24"
+
+[tool.setuptools]
+packages = ["your_package_name"]  # Your package or module
+
+
